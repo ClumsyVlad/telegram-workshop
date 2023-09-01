@@ -13,15 +13,19 @@ The Enso API not only offers you all metadata such as apy, tvl, addresses, under
 You can do native transaction bundling as well, i.e. enter 50 defi positions in one transaction.  
 Compatible with gnosis safe, and any smart wallet that enables delegatecall..
 
+
+
 ## Prerequisites
-1. Fork this repo
-2. copy .env.example into .env
-3. Generate [telegram bot key](https://t.me/BotFather)  
+1. npm install
+3. Fork this repo
+4. copy .env.example into .env
+5. Generate [telegram bot key](https://t.me/BotFather)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. run `/newbot`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. input a unique name  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. copy you're API key and put inside of [.env](.env)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. message your bot `@your_bot_handle`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. press `/start`  
+6. `npx ts-node botter.ts`
    
 ## FAQ
 1. We will be using the Enso Smart wallet today, and all funds will be stored inside of this... unless you reach the extra challenges
