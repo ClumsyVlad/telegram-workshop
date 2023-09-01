@@ -1,0 +1,25 @@
+{
+  "name": "defi-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "bot": "ts-node-dev ./botter.ts"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.2",
+    "@grammyjs/menu": "^1.2.1",
+    "@roziscoding/grammy-autoquote": "^1.1.2",
+    "@types/node": "^20.5.7",
+    "axios": "^1.5.0",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.18.1",
+    "typescript": "^5.2.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
